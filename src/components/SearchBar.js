@@ -32,7 +32,8 @@ const styles = StyleSheet.create({
         marginHorizontal:15,
         display:'flex',
         flexDirection:'row',
-        justifyContent:"center"
+        justifyContent:"center",
+        marginBottom:10
     },
     inputStyle:{
         // borderWidth:1,

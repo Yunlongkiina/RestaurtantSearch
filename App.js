@@ -6,12 +6,16 @@ import { StyleSheet, Text, View } from 'react-native';
 import SearchScreen from './src/screens/SearchScreen';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
+import ResultShowScreen from './src/screens/ResultShowScreen';
 
 const Stack = createStackNavigator();
+
 function MyStack() {
   return (
     <Stack.Navigator>
       <Stack.Screen name="Home" component={SearchScreen} />
+      <Stack.Screen name="ResultShow" component={ResultShowScreen} />
+
       {/* <Stack.Screen name="Notifications" component={NotificationsScreen} />
       <Stack.Screen name="Profile" component={ProfileScreen} />
       <Stack.Screen name="Settings" component={SettingsScreen} /> */}
